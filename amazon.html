@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Amazon Clone</title>
+
+
+    <script src="amazon.js" defer></script>
+    <link rel="stylesheet" href="amazon.css">
+    <script src="https://kit.fontawesome.com/9d8d3bb608.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo border">
+                <div class="logo">
+
+                </div>
+
+            </div>
+            <div class="navaddress  border" onclick="getme()">
+                <p class="add1">Deliver to</p>
+
+                <div class="addicon">
+
+
+                    <h4 class="add2"><i class="fa-solid fa-location-dot"></i>hyderabad</h4>
+                </div>
+
+            </div>
+            <div class=" border navsearch">
+
+                <select name="" id="selectlist" aria-placeholder="All">
+                    <option value="All">All</option>
+
+                    <option value="All Categories">All Categories</option>
+                    <option value="Alexa Skills">Alexa Skills</option>
+                    <option value="Amazon devices">Amazon devices</option>
+                    <option value="Amazon fashion">Amazon fashion</option>
+                    <option value="Amazon pharmacy">Amazon pharmacy</option>
+                    <option value="Appliances">Appliances</option>
+                    <option value="Games ">Games</option>
+                    <option value="Clothing and accessories">Clothing and accessories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Books">Books</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Alexa Skills"> Alexa Skills</option>
+                    <option value="Deals"> Deals</option>
+                    <option value="Amazon fresh">Amazon Fresh</option>
+                    <option value="Car and motorbike">Car and motorbike</option>
+                </select>
+
+
+                <input type="text" placeholder="Search Amazon" id="searchinput">
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="navaddress  border">
+                <p>Hello ,sign in</p>
+                <div class="accounts">
+                    <h4>Accounts & Lists</h4>
+
+                </div>
+            </div>
+            <div class="navaddress  border">
+                <p>Returns</p>
+                <div class="returns">
+                    <h4>& Orders</h4>
+                </div>
+            </div>
+            <div class="navaddress  border">
+                <p class="cart"><i class="fa-solid fa-cart-shopping"></i>Cart</p>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="secnav">
+        <div class="row">
+            <div class="menu">
+                <div class="col ">
+                    <p><i class="fa-solid fa-bars"></i>All</p>
+                </div>
+                <div class="col border ">
+                    <p>Amazon MiniTv</p>
+                </div>
+                <div class="col border">
+                    <p>Sell</p>
+                </div>
+                <div class="col border">
+                    <p>Best Seller </p>
+                </div>
+                <div class="col border">
+                    <p>Today's Deals</p>
+                </div>
+                <div class="col border">
+                    <p>Mobiles</p>
+                </div>
+                <div class="col border">
+                    <p>Fashion</p>
+                </div>
+                <div class="col border">
+                    <p>Electronics</p>
+                </div>
+                <div class="col  border">
+                    <p>Customer Service</p>
+                </div>
+                <div class="col border">
+                    <p>Home & Kitchen</p>
+                </div>
+                <div class="col border">
+                    <p>Amazon pay</p>
+                </div>
+                <div class="col border">
+                    <p>New releases</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <ul>
+            <li class="active">
+                <img src="third.png" alt="GFG Image 1">
+            </li>
+            <li>
+                <img src="six.png" alt="GFG Image 2">
+            </li>
+            <li>
+                <img src="photo1.png" alt="GFG Image 3">
+            </li>
+            <li>
+                <img src="photo2.png" alt="GFG Image 4">
+            </li>
+            <li>
+                <img src="photo3.png" alt="GFG Image 5">
+            </li>
+            <li>
+                <img src="fouth.png" alt="GFG Image 6">
+            </li>
+            <li>
+                <img src="fifth.png" alt="GFG Image 7">
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="entire">
+        <div class="rowpic">
+            <div class="colpic">
+
+                <h3>Womens Clothing and many more...</h3>
+                <div class="imgpic" style="background-image: url('womens_clothing.png');">
+
+                </div>
+                <p>See more</p>
+            </div>
+            <div class="colpic">
+
+                <h3>Footware and many more products ...</h3>
+                <div class="imgpic" style="background-image: url('foot.png');">
+
+                </div>
+                <p>See more offers</p>
+            </div>
+            <div class="colpic">
+
+                <h3>Mens Clothing and accessories...</h3>
+                <div class="imgpic" style="background-image: url('mens_clothing.png');">
+                </div>
+                <p>Shop now</p>
+            </div>
+            <div class="colpic">
+
+                <h3>Jewellary and many more products...</h3>
+
+                <div class="imgpic" style="background-image: url('jewel.png');">
+
+                </div>
+                <p>Explore All</p>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="headdiv">
+                <h2>Today's deals are here...</h2>
+            </div>
+            <div class="rowpic">
+                <div class="colpic">
+
+                    <h3>Player's paradise starts here...</h3>
+                    <div class="imgpic" style="background-image: url('player.png');">
+
+                    </div>
+                    <p>See more</p>
+                </div>
+                <div class="colpic">
+
+                    <h3>Shop activity trackers and smartwatches...</h3>
+                    <div class="imgpic" style="background-image: url('smartwatch.png');">
+
+                    </div>
+                    <p>See all offers</p>
+                </div>
+                <div class="colpic">
+
+                    <h3>Upgrade your office furniture...</h3>
+                    <div class="imgpic" style="background-image: url('lp.png');">
+                    </div>
+                    <p>See more products</p>
+                </div>
+                <div class="colpic">
+
+                    <h3>Creating business solutions ....</h3>
+
+                    <div class="imgpic" style="background-image: url('laptop.png');">
+
+                    </div>
+                    <p>Explore all</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row2">
+            <h2>Recommended deals are........</h2>
+            <div class="rowpic">
+                <div class="colpic">
+
+                    <h3>Beauty steals and accessories under 499...</h3>
+                    <div class="imgpic" style="background-image: url('shoe.png');">
+
+                    </div>
+                    <p>See all offers</p>
+                </div>
+                <div class="colpic">
+
+                    <div class="headdiv">
+                        <h3> Up to 50% off | <br> International brands ...</h3>
+                    </div>
+                    <div class="imgpic" style="background-image: url('beauty.png');">
+
+                    </div>
+                    <p>See more</p>
+                </div>
+
+                <div class="colpic">
+
+                    <h3>Up to 75% off |<br> Unique products from ...</h3>
+                    <div class="imgpic" style="background-image: url('toy.png');">
+                    </div>
+                    <p>Explore all</p>
+                </div>
+                <div class="colpic">
+
+                    <h3>Deals in PC |<br> under 29999...</h3>
+
+                    <div class="imgpic" style="background-image: url('pc.png');">
+
+                    </div>
+                    <p>See more offers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rowelements">
+            <div class="hehead">
+                <h2>Up to 50% off | Kitchen appliances , cooktops & more from stores nearby</h2>
+            </div>
+            <div class="re">
+
+                <div class="recol" style="background-image: url('kitchen1.png');">
+
+                </div>
+
+                <div class="recol" style="background-image: url('kitchen2.png');">
+                </div>
+
+                <div class="recol" style="background-image: url('kitchen3.png');">
+
+                </div>
+
+                <div class="recol" style="background-image: url('kitchen4.png');">
+
+                </div>
+
+                <div class="recol" style="background-image: url('kitchen5.png');">
+
+                </div>
+
+                <div class="recol" style="background-image: url('kitchen6.png');">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row2">
+            <h2>Flat 50% offer on ........</h2>
+            <div class="rowpic">
+                <div class="colpic">
+
+                    <div class="headdiv">
+                        <h3>Player's paradise starts here...</h3>
+                    </div>
+                    <div class="imgpic" style="background-image: url('games.png');">
+
+                    </div>
+                    <p>See more</p>
+                </div>
+                <div class="colpic">
+
+                    <h3>Shop activity trackers and smartwatches...</h3>
+                    <div class="imgpic" style="background-image: url('smartwatch2.png');">
+
+                    </div>
+                    <p>See offers</p>
+                </div>
+                <div class="colpic">
+
+                    <h3>Upgrade your office furniture...</h3>
+                    <div class="imgpic" style="background-image: url('furniture.png');">
+                    </div>
+                    <p>See more products</p>
+                </div>
+                <div class="colpic">
+
+                    <h3>Creating business solutions ....</h3>
+
+                    <div class="imgpic" style="background-image: url('laptop.png');">
+
+                    </div>
+                    <p>Explore all</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="rowelements">
+            <div class="hehead">
+                <h2>Up to 60% off | Clothing and accessories from stores nearby </h2>
+
+            </div>
+            <div class="re">
+
+                <div class="recol" style="background-image: url('row1.png');">
+
+                </div>
+
+                <div class="recol" style="background-image: url('r0w7.png');">
+                </div>
+
+                <div class="recol" style="background-image: url('row3.png');">
+
+                </div>
+
+                <div class="recol" style="background-image: url('row4.png');">
+
+                </div>
+
+                <div class="recol" style="background-image: url('row5.png');">
+
+                </div>
+
+                <div class="recol" style="background-image: url('row6.png');">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="grey">
+            <br><br>
+
+        </div>
+
+        <!--***********video***************-->
+
+        <div class="container">
+
+            <div class="content">
+
+                <iframe width="1000" height="245" src="https://www.youtube.com/embed/Rsjo7NQW0-E?si=orvvDuaHSbwBKbOO"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media;gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
+        </div>
+
+
+        <div class="grey">
+
+
+        </div>
+        <br>
+        <div class="white">
+            <br>
+            <hr>
+            <br>
+            <br>
+            <p>See personalized recommendations</p>
+            <p class="bottom">Sign in </p>
+            <pre>New customer? <b>start here</b></pre>
+            <br>
+            <hr>
+
+        </div>
+
+        <!--about us-->
+        <footer>
+            <div class="footerabout">
+                <div class="top">
+                    <a href="amazon.html">
+                        <p> Back to top</p>
+                    </a>
+                </div>
+                <div class="footmain">
+                    <div class="rowfoot">
+                        <div class="colfoot">
+                            <h3>Get to Know Us</h3>
+                            <p>Careers</p>
+                            <p>Blogs</p>
+                            <p>About Amazon</p>
+                            <p>Investor Relations</p>
+                            <p>Amazon Devices</p>
+                            <p>Amazon Sciences</p>
+                        </div>
+                        <div class="colfoot">
+                            <h3>Make Money With US</h3>
+
+                            <p>Sell products on Amazon</p>
+                            <p>Sell on Amazon Business</p>
+                            <p>Sell apps on Amazon</p>
+                            <p>Become an Affiliate</p>
+                            <p>Advertise Your Products</p>
+                            <p>Self-Publish with Us</p>
+                            <p>Host an Amazon Hub</p>
+                            <p>See More Make Money with Us</p>
+
+                        </div>
+
+                        <div class="colfoot">
+                            <h3>Amazon Payment Products</h3>
+                            <p> Amazon Business Card</p>
+                            <p>Shop with Points</p>
+                            <p>Reload Your Balance</p>
+                            <p>Amazon Currency Converter</p>
+                        </div>
+                        <div class="colfoot">
+                            <h3>Let Us Help You</h3>
+                            <p> Amazon and COVID-19</p>
+                            <p> Your Account</p>
+                            <p> Your Orders</p>
+                            <p> Shipping Rates & Policies</p>
+                            <p> Returns & Replacements</p>
+                            <p>Manage Your Content and Devices</p>
+                            <p> Amazon Assistant</p>
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="amazonfoot">
+                    <div class="footrowlogo">
+
+                        <img src="lastlogo.png" alt="">
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="lastfoot">
+                <div class="lastrow">
+                    <div class="lastcol">
+                        <h3>Amazon music</h3>
+                        <p>Stream millions of songs</p>
+                    </div>
+                    <div class="lastcol">
+                        <h3>Amazon songs</h3>
+                        <p>Reach customers anytime</p>
+                    </div>
+                    <div class="lastcol">
+                        <h3>Amazon Books</h3>
+                        <p>SArt and songs club</p>
+                    </div>
+                    <div class="lastcol">
+                        <h3>Sell on Amazon </h3>
+                        <p>Start selling on amazon</p>
+                    </div>
+
+
+                </div>
+                <div class="copyfoot">
+                    <p> Conditions of Use & Sale
+                        Privacy Notice
+                        Interest-Based Ads</p>
+                    <p class="copy"> © 1996-2023, Amazon.com, Inc.
+                        or its affiliates
+                    <p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
