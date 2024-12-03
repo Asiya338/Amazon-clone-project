@@ -3,6 +3,8 @@
 This project is a clone of the Amazon homepage, built using HTML, CSS, and JavaScript.
 The goal of this project is to replicate the design and layout of Amazon's homepage while practicing front-end web development skills.
 
+[![Amazon Clone](https://i.postimg.cc/fbFf4TDF/Screenshot-7.png)](https://postimg.cc/mcYHC4cN)
+
 ## Overview
 
 The Amazon Clone project is designed to provide a basic understanding of web development by replicating
@@ -27,3 +29,7 @@ the homepage of one of the most popular e-commerce websites. It includes a respo
 1. Clone the repository:
 
    git clone https://github.com/your-username/amazon-clone.git
+   
+2. open live server to run index.html
+
+   see th deployed project [Amazon Clone](https://asiya338.github.io/Amazon-clone-project)
